@@ -1,0 +1,84 @@
+/*########## Default ###########*/
+* {
+  font-family: serif;
+}
+
+body {
+  background: #FAF9FF;
+}
+/*########### NAV BAR ##########*/
+.mynav {
+  background: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.notif {
+  margin-right: 15px;
+}
+
+/*########## DASHBOARD ##########*/
+.dashboard {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+}
+
+/*########## SIDE NAV ##########*/
+.sidenav {
+  background-color: #228b22;
+  height: 170vh;
+}
+
+.sidenav .plsp-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.sidenav h1 {
+  font-size: 20px;
+  color: whitesmoke;
+  margin-left: 10px;
+}
+
+hr {
+  color: whitesmoke;
+}
+
+.sidenav .side-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.navlist a {
+  opacity: 75%;
+  color: whitesmoke;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+/*########### FOOTER ##########*/
+.footer {
+  background: #444444;
+  padding: 20px 0 70px 0;
+}
+.footer-logo {
+  height: 70px;
+  width: 70px;
+}
+
+/*########### HOVER ############*/
+
+.navlist a:hover {
+  background: darkgreen;
+}
+
+.sidenav .dashboard:hover {
+  background: darkgreen;
+}
